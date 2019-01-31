@@ -1,0 +1,14 @@
+insert into CustomerApplicationDB.dbo.Customers values ('ABCD','Electrical');
+insert into CustomerApplicationDB.dbo.Customers values ('QWER','Toys');
+insert into CustomerApplicationDB.dbo.Customers values ('VBCF','Mechanical');
+insert into CustomerApplicationDB.dbo.Customers values ('APLA','Food');
+insert into CustomerApplicationDB.dbo.Customers values ('APDT','Clothes');
+select  * from CustomerApplicationDB.dbo.Customers;
+insert into CustomerApplicationDB.dbo.Addresses values ('123 XYZ road',null,'Bartlett','Illinois','60106',1);
+insert into CustomerApplicationDB.dbo.Addresses values ('986 LOP road',null,'Schambaurg','Illinois','60108',1);
+insert into CustomerApplicationDB.dbo.Addresses values ('147 EGDS road',null,'Chicago','Illinois','60106',1);
+insert into CustomerApplicationDB.dbo.Addresses values ('988 AHRR road',null,'Itasca','Illinois','60106',2);
+insert into CustomerApplicationDB.dbo.Addresses values ('850 LPJ road',null,'Carol Stream','Illinois','60106',3);
+insert into CustomerApplicationDB.dbo.Addresses values ('152 MKJ road',null,'Loop','Illinois','60106',4);
+insert into CustomerApplicationDB.dbo.Addresses values ('456 OIP road',null,'Bloomingdale','Illinois','60106',5);
+select  * from CustomerApplicationDB.dbo.Addresses;
